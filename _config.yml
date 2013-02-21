@@ -5,9 +5,9 @@ auto: true
 rdiscount:
   extensions: [smart]
 
-name: Zach Holman
-url: http://zachholman.com
-description: A fantastic blog that is fantastic.
-twitter: holman
-github: holman
-gravatar_url: http://gravatar.com/avatar/6f63cde8b16b035280ca615f621a6c8c
+name: Daniel Hengeveld
+url: http://thedaniel.github.com
+description: Tech stuff from @thedaniel - see also http://neoglam.com
+twitter: thedaniel
+github: thedaniel
+gravatar_url: http://gravatar.com/avatar/04281fcaba85633878f9a451a2e7c4f7
