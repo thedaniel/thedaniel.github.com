@@ -2,7 +2,6 @@
 layout: post
 title: The Shadow of the Future
 category: posts
-draft: true
 ---
 
 *This is a piece I wrote for internal consumption at work - I've edited
