@@ -2,6 +2,7 @@
 layout: post
 title: The Shadow of the Future
 category: posts
+draft: true
 ---
 
 *This is a piece I wrote for internal consumption at work - I've edited
@@ -42,7 +43,7 @@ This becomes more interesting when the game is played over and over again with t
 
 ###Tit For Tat
 
-![](http://amandakrill.com/wp-content/uploads/2011/02/Blog-scratch-my-back3-300x200.jpg)
+![](/images/shadow-future-monkeys.jpg)
 
 Robert Axelrod, the author of the book, was interested in studying different strategies for the IPD. He decided to hold a tournament in which strategies submitted by academics would compete against each other and be ranked by average score. The winner was a strategy called TIT FOR TAT (T4T) that started out nice, and then simply repeated the last thing its counterpart did. You cooperate, T4T cooperates on the next move. You defect, it defects.
 
@@ -97,7 +98,7 @@ If we can keep the interaction going, which is what makes the Iterated Prisoners
 
 ###The Shadow of the Future
 
-![](http://universe-beauty.com/albums/astronomy_photo/normal_Shadow-of-a-Martian-Robot.jpg)
+![](/images/shadow-future-rover.jpg)
 
 One of the most interesting findings of the book that is returned to repeatedly is that reciprocal strategies are only stable if the value of future interaction is high compared to the current interaction. That is to say, the less important tomorrow is to you, the more likely you are to defect against your counterpart. In the chapter on promoting cooperation, Axelrod gives a few suggestions on how to "enlarge the shadow of the future" and otherwise promote cooperation in general.
 
@@ -127,6 +128,10 @@ read to encourage bureaucracy and specialization. One of our goals is to create 
 environment that provides durable, frequent interactions through tools and not
 through a hierarchy, and with software and text, not full-time managers.
 
+Here are a couple examples of ways to apply these concepts to an internal status
+app, like the one we use at GitHub. They aren't intented to be huge, brilliant
+solutions, but as examples of where this kind of thinking will take you.
+
 ###Transparent strategies in our internal status app
 
 Transparent strategies discourage cleverness and playing to suspected hidden
@@ -143,17 +148,17 @@ the 'recent updates' on a collaborator's profile page. This would be a simple li
 that any user could add to, listing things that the person had shipped - like
 a trophy wall of things he or she is proud of.
 
-![ships history](/images/shadow-future-2.png)
+![ships history](/images/shadow-future-3.png)
 
 ###Team/focus tags
 
 Territoriality can stand in for recognition of individuals - Axelrod has some
 interesting things to say about this when he explores the evolution of
 cooperation in animals that can't tell invidiual entities apart. As our employee
-count grows, knowing what team someone is on or where there interests lie adds
+count grows, knowing what team someone is on or where their interests lie adds
 interesting context to interactions.
 
-![focus tags](/images/shadow-future-3.png)
+![focus tags](/images/shadow-future-2.png)
 
 ###Neighboring territories
 
@@ -175,12 +180,10 @@ provide an interesting base for discussion.
 
 - - - - -
 
-##Addenda
+###Addendum
 
-###Iterated Pull-requester's Dilemma
+*One way I came up with applying the model works as follows:*
 
-One way I came up with applying the model works as follows:
-
-- Points are represented by getting changes you advocate into master
-- Collaboration is accepting changes from others
-- Defection is rejecting changes from others
+- *Points are represented by getting changes you advocate into master*
+- *Collaboration is accepting changes from others*
+- *Defection is rejecting changes from others*
